@@ -96,13 +96,13 @@ This enables fast slicing, filtering, and scalable analysis using Pivot Tables a
 
 ## 📐 Key Metrics (DAX)
 Key measures created include:
-- 💰 Net Sales - =SUM(fact_sales_monthly[net_sales_amount])
-- 💰 Net Sales 19 - =CALCULATE([Net Sales],dim_date[FY]="2019")
-- 💰 Net Sales 20 - =CALCULATE([Net Sales],dim_date[FY]="2020")
-- 💰 Net Sales 21 - =CALCULATE([Net Sales],dim_date[FY]="2021")
-- 📊 21 vs 20 - =DIVIDE([Net Sales 21],[Net Sales 20],0)
-- 🎯 target 21 - =SUM(ns_targets_2021[ns_target])
-- 📉 2021-Target - =[Net Sales 21]-[target 21]
+- 💰 Net Sales =SUM(fact_sales_monthly[net_sales_amount])
+- 💰 Net Sales 19 =CALCULATE([Net Sales],dim_date[FY]="2019")
+- 💰 Net Sales 20 =CALCULATE([Net Sales],dim_date[FY]="2020")
+- 💰 Net Sales 21 =CALCULATE([Net Sales],dim_date[FY]="2021")
+- 📊 21 vs 20 =DIVIDE([Net Sales 21],[Net Sales 20],0)
+- 🎯 target 21 =SUM(ns_targets_2021[ns_target])
+- 📉 2021-Target =[Net Sales 21]-[target 21]
 
 All KPIs dynamically update based on filters.
 
