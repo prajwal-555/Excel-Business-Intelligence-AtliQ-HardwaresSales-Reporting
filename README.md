@@ -83,12 +83,15 @@ Data cleaning and transformation performed using **Power Query**:
 ## 🧱 Data Model
 The data model follows a **star-schema-inspired approach**:
 - ⭐ **Fact Tables**:
-  - Customer Sales Performance
-  - Market Performance vs Target
+  - fact_Sales_monthly
 - 📂 **Dimension Tables**:
-  - Customer
-  - Market
-  - Fiscal Year
+  - dim_Customer
+  - dim_market
+  - dim_product
+  - dim_date
+    
+    <img width="1013" height="512" alt="image" src="https://github.com/user-attachments/assets/fa94ad38-42f0-4689-8aad-adf0b6b6e4aa" />
+
 
 This enables fast slicing, filtering, and scalable analysis using Pivot Tables and DAX.
 
