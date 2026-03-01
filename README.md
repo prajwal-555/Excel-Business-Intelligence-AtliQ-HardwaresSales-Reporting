@@ -22,9 +22,8 @@ Sales Analytics Dashboard – AtliQ Hardwares
 - 📐 Key Metrics
 - 📊 Analysis & Insights
 - 🎛 Excel Dashboard Overview
-- 📂 Repository Structure
-- 💡 Skills Demonstrated
-- 🚀 Future Improvements
+- 💡 Technical Skills
+- 🚀 Soft Skills
 
 ---
 
@@ -141,7 +140,7 @@ The Excel dashboard includes:
 
 ---
 
-## 🎯 Technical & Soft Skills:
+## 🎯 Technical Skills:
 - [x]	Proficiency in ETL methodology (Extract, Transform, Load).
 - [x]	Skills to generate a date table using Power Query.
 - [x]	Ability to derive fiscal months and quarters.
